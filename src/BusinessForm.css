@@ -1,0 +1,60 @@
+.business-form-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .business-form-container label {
+    display: block;
+    margin-top: 11px;
+  }
+  
+  .business-form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .business-form-container .submit-button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .business-form-container .submit-button:hover {
+    background-color: rgb(161, 137, 137);
+  }
+
+  .etio {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .footer-container {
+    display: flex;
+
+  }
+  
+  
+  .additional-box {
+    width: 100%;
+    height: 300px;
+    background-color: lightgray;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+  }
+  
+  .additional-box li{
+    margin-top: 30px;
+    list-style-type: none;
+  }

@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+}
+body {
+    background: rgb(3, 0, 20);
+    color: white;
+}
+
+.Wrapper{
+    min-height: 100vh;
+    display: flex;
+}
+
+.sideBar{
+    flex: 3;
+    border-right: 1px solid rgb(100, 100, 100); 
+}
+
+.addFileBtn {
+    background-color: #f9004d;
+    border: none;
+    border-radius: 1px; 
+    color: white;
+    font-size: 1.5re;
+    width: 15rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.plus{
+    width: 25px;
+}
+
+
+.dialog {
+    background-color: rgba(211, 211, 211, 0.3);
+    border: none;
+    border-radius: 11px; 
+    color: white;
+    font-size: 1.5re;
+    width: 10rem;
+    align-items: center;
+    justify-content: center;
+}
+.mess{
+    width: 25px;
+}
+
+.log{
+    width: 25px;
+}
+.dis{
+    width: 30px;
+}
+
+.up{
+    width: 30px;
+}
+.lowerItem {
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+
+.mainChat {
+    flex: 10;
+}
+
+.mesob{
+    width: 60px;
+    
+}
+
+.logo{
+    color: white;
+ 
+}
+
+.upperSide{
+    padding: 2.5rem;
+    border-bottom: 1px solid rgb(100, 100, 100); 
+    height: 60%;
+}
+
+.container{
+    align-items: center; 
+    padding: 15px;
+    margin: 180px auto;
+    width: 80%;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+h3 {
+    grid-column: span 3
+    grid-column span 1;
+    text-align: center;
+}
+
+.centertxt{
+    background-color: rgba(211, 211, 211, 0.1);
+    margin: 5px;
+    border: none;
+    border-radius: 6px; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    color: white; 
+    cursor: pointer; 
+}
+
+
+
+.centertxt:hover {
+    background-color: grey; 
+}
+
+
+
+.sendChat  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 20px;
+}
+
+.input-field {
+    background: rgb(3, 0, 20);
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.send-button {
+    background-color: #f9004d;
+    color: #fff;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
+.sen{
+    width:1px;
+    height: 10px;
+}
